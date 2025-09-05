@@ -1,23 +1,48 @@
-# cam-capture-demo
-A simple Flask + HTML demo project to show how to capture user input and camera access in a web page.  Made for educational and fun purposes only.
-# Cam Capture Demo 🎥
 
-This is a demo project built using **Flask (Python)** and **HTML/JavaScript** to show how:
-- A simple web form works
-- How to handle user input
-- How to request camera access from the browser
-- How to save captured images on the server
+# 📸 PerfectEye - Cam Capture Tool  
 
-⚠️ **Note:**  
-This project is made only for **educational and fun purposes** (like creating a fake recharge prank page).  
-Do not misuse it for any illegal activity.
+Flask based simple tool to capture images from mobile/pc camera and save in `captures/` folder.  
 
 ---
 
-## 🔧 Requirements
-- Python 3
-- Flask
+## ⚙️ Installation (Termux / Linux)
 
-Install Flask:
+Copy & paste these commands one by one:
+
 ```bash
+# Update packages
+pkg update -y
+pkg upgrade -y
+
+# Install dependencies
+pkg install python -y
+pkg install git -y
+pkg install wget -y
+pkg install unzip -y
+pkg install proot -y
+pkg install curl -y
+
+# Python requirements
 pip install flask
+pip install requests
+pip install opencv-python
+pip install numpy
+pip install pyfiglet
+
+
+# Clone this repository
+git clone https://github.com/perfectmodxyzhack/cam-capture-demo.git
+
+# Open folder
+cd cam-capture-demo
+
+# Run the script
+python cam6.py
+
+
+./ngrok http 8080
+
+👑 Author
+
+Created by MrPerfectMod
+Follow on Instagram 👉 @MrPerfect_Xyz
