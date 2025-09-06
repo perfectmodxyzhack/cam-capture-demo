@@ -28,6 +28,7 @@ pip install requests
 pip install opencv-python
 pip install numpy
 pip install pyfiglet
+pip install termcolor
 
 
 # Clone this repository
