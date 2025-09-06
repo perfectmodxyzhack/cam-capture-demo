@@ -38,7 +38,7 @@ git clone https://github.com/perfectmodxyzhack/cam-capture-demo.git
 cd cam-capture-demo
 
 # Run the script
-python cam6.py
+python hackcam.py
 
 
 ./ngrok http 8080
